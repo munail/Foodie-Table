@@ -1,6 +1,7 @@
-.mainheader {
+.header {
     background-image: url("../img/landing.jpg");
     background-repeat: no-repeat;
+    color: black;
 }
 
 .ham {
@@ -14,16 +15,16 @@
 }
 
 .top h1 {
-    color: #ffffff;
+    color: black;
 }
 
-.hp {
+.happy {
     background-color: gainsboro;
     padding: 27px;
     text-align: center;
 }
 
-.pt {
+.time {
     background-color: #F15A29;
     padding: 27px;
     color: whitesmoke;
@@ -42,7 +43,8 @@
     height: 150px;
     text-align: center;
     padding-top: 75px;
-    color: whitesmoke;
+    font: bold;
+    color: green;
 }
 
 .lunch {
@@ -51,7 +53,7 @@
     height: 150px;
     text-align: center;
     padding-top: 75px;
-    color: whitesmoke;
+    color: aqua;
 }
 
 .dinner {
@@ -60,7 +62,7 @@
     height: 150px;
     text-align: center;
     padding-top: 75px;
-    color: whitesmoke;
+    color: darkseagreen;
 }
 
 .breakfast:hover {
@@ -82,7 +84,7 @@ Gallery
 ========
 */
 
-.two {
+.para {
     display: inline-block;
     vertical-align: top;
     width: 38.5%;
@@ -90,6 +92,10 @@ Gallery
     margin-right: 3%;
     padding-top: 30px;
     border: 100px;
+    align-self: flex-start;
+}
+.row {
+    float: right;
 }
 
 .btn {
